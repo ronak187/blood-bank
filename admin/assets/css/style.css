@@ -1,0 +1,18 @@
+.message{
+    display: block;
+    position: fixed;
+    right: 10px;
+    top: 60px;
+    z-index: 2;
+}
+
+.card-header .card-title{
+    font-size: 20px;
+    line-height: 34px;
+}
+
+/* .active{
+    background: #007bff;
+    color: #fff;
+    width: calc(250px - .5rem * 2);
+} */
