@@ -1,0 +1,260 @@
+body{
+    background: #800000;
+}
+
+a,a:hover{
+    text-decoration: none;;
+}
+
+.header{
+    background: #fff;
+    padding: 20px 0;
+}
+
+.header .site-title{
+    color: #800000;
+    font-weight: 700;
+}
+
+.btn1{
+    background: #800000;
+    color: #fff;
+    font-weight: 600;
+    margin: 0 5px;
+    border: 2px solid transparent;
+}
+
+.btn1:hover{
+    background: #fff;
+    color: #800000;
+    border: 2px solid #800000;
+}
+
+.my-profile .card-title{
+    font-weight: 600;
+}
+
+.site-logo{
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.site-logo img{
+    width: 300px;
+    /* height: 150px;
+    object-fit: cover; */
+    border-radius: 10px;
+}
+
+.blood-form{
+    background-color: #eee;
+    padding: 50px 40px;
+    border-radius: 5px;
+}
+
+.yourform{
+    background: #eee;
+    padding: 25px;
+}
+
+.message{
+    display: block;
+    position: fixed;
+    right: 10px;
+    top: 60px;
+    z-index: 2;
+}
+
+.btn:focus, .btn.focus{
+    box-shadow: none;
+}
+
+.dropdown-item:hover{
+    background-color: #ddd;
+}
+
+.user-img{
+    text-align: center;
+}
+
+.user-img img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.table td{
+    border-top: 0px;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.footer{
+    background: #fff;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.footer  a{
+    color: #800000;
+}
+
+.content{
+    background: url('../../images/blood1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    min-height: calc(100vh - 15vh);
+    padding: 60px 0;
+}
+
+.form-group > label{
+    font-weight: 600;
+}
+
+.pagination{
+    justify-content: center;
+}
+
+.page-link{
+    color: #800000;
+}
+
+.page-link:hover{
+    color: #800000;
+}
+
+.page-item.active .page-link{
+    background-color: #800000;
+    border-color: #800000;
+}
+
+@media only screen and (max-width:991px){
+    .content{
+        padding: 40px 0;
+    }
+
+    .site-logo{
+        padding-bottom: 40px;;
+    }
+
+    .blood-form{
+        padding: 40px;
+    }
+}
+
+@media only screen and (max-width:767px){
+    body{
+        font-size: 15px;
+    }
+    .header{
+        padding: 15px 0;
+    }
+
+    .header h2{
+        font-size: 26px;
+    }
+
+    .btn1{
+        font-size: 14px;
+        line-height: 16px;
+        height: 35px;
+        margin: 0px !important;
+    }
+
+    .header .btn1{
+        margin: 0 5px !important;
+    }
+
+    .site-logo img{
+        width: 250px;
+        height: 130px;
+    }
+
+    .blood-form{
+        padding: 30px;
+    }
+
+    .content{
+        padding: 35px 0;
+    }
+
+    .site-logo{
+        padding-bottom: 35px;
+    }
+
+    .my-profile .btn1{
+        line-height: 19px;
+    }
+
+}
+
+
+@media only screen and (max-width:576px){
+    body{
+        font-size: 13px;
+    }
+    .header{
+        padding: 10px 0;
+    }
+
+    .header h2{
+        text-align: center;
+        margin-bottom: 10px !important;
+    }
+
+    .header .btn1{
+        font-size: 13px;
+        line-height: 11px;
+        height: 30px;
+    }
+
+    .header .login-btn{
+        justify-content: center !important;
+    }
+
+    .site-logo{
+        padding-bottom: 25px;
+    }
+
+    .site-logo img{
+        width: 220px;
+        height: 110px;
+    }
+
+    .content{
+        padding: 25px 0;
+    }
+
+    .blood-form{
+        padding: 25px;
+    }
+
+    .user-img{
+        margin-bottom: 10px;
+    }
+
+    .btn1{
+        font-size: 13px;
+    }
+
+    .my-profile .card-title{
+        font-size: 24px;
+    }
+
+    .signup-form .title{
+        font-size: 24px;
+        padding: 13px !important;
+    }
+
+}
+
+@media only screen and (max-width:386px){
+    .my-profile .card-title{
+        display: block !important;
+        margin-bottom: 10px !important;
+    }
+
+    .my-profile .btn1{
+        float: none !important;
+    }
+}
